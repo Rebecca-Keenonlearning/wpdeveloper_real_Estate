@@ -32,6 +32,10 @@ h6 {
   }
 }
 
+.pointer1 {
+  cursor: pointer;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -1299,4 +1303,8 @@ section {
 
 #footer .credits a {
   color: #34b7a7;
+}
+
+#bootstrap_more_skills {
+  display: none;
 }
