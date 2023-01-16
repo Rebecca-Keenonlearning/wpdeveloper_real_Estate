@@ -1,3 +1,42 @@
 .progress {
     height: fit-content !important;
 }
+
+/* ul li:before {
+    content: '✓';
+    color: rgb(6, 56, 6);
+} */
+ul.narbar {
+    list-style-type: none !important;
+}
+
+.about {
+    background-image: url(/assets/img/background_img_about_1cc.png);
+}
+
+.more_skills {
+    display: none;
+}
+
+/* ul {
+    list-style-image: url("../img/checkbox_50px.png");
+} */
+
+ul.detailed_skills {
+    background-color: white;
+    list-style-type: none;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+li {
+    list-style: none;
+}
+
+li.detailed_skills:before {
+    content: url(../img/checkbox_25px.png);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: .8em;
+    margin-top: -0.2em;
+}

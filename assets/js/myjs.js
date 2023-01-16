@@ -1,3 +1,29 @@
+document.querySelector('#css_skills').onclick = function () {
+    // document.querySelector('#bootstrap_more_skills').show();
+
+    // $('#bootstrap_more_skills').fadeIn('slow');
+
+    if ($('#css_more_skills').is(":visible")) {
+        $('#css_more_skills').fadeOut('slow');
+    } else {
+        $('#css_more_skills').slideDown('slow');
+
+    }
+}
+
+document.querySelector('#css_skills').onclick = function () {
+    // document.querySelector('#bootstrap_more_skills').show();
+
+    // $('#bootstrap_more_skills').fadeIn('slow');
+
+    if ($('#css_more_skills').is(":visible")) {
+        $('#css_more_skills').fadeOut('slow');
+    } else {
+        $('#css_more_skills').slideDown('slow');
+
+    }
+}
+
 document.querySelector('#sass_skills').onclick = function () {
     // document.querySelector('#bootstrap_more_skills').show();
 
